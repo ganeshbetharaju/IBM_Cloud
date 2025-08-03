@@ -2,9 +2,9 @@ import streamlit as st
 import requests
 
 # Replace with your real credentials from IBM Cloud
-API_KEY = "YOUR_API_KEY"
-PROJECT_ID = "YOUR_PROJECT_ID"
-LOCATION = "us-south"  # Change if your region is different
+API_KEY = "s1Y9Hu761s1NXyU7Qq_vclhQ23iD6mhV2uW1uXShT7Z1"
+PROJECT_ID = "fa380080-64a3-412f-94e5-2e7e8aa78e12"
+LOCATION = "us-south" 
 
 def get_eco_suggestion(activity):
     url = f"https://{LOCATION}.ml.cloud.ibm.com/ml/v1/text/generate"
